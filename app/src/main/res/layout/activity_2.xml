@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Activity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama:"
+        android:textSize="20dp"
+        android:id="@+id/tvNama"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kode Barang:"
+        android:textSize="20dp"
+        android:id="@+id/tvKode"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Barang:"
+        android:textSize="20dp"
+        android:id="@+id/tvNbarang"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="harga Barang:"
+        android:textSize="20dp"
+        android:id="@+id/tvhargabarang"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total harga:"
+        android:textSize="20dp"
+        android:id="@+id/tvTotalHarga"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discount Member:"
+        android:textSize="20dp"
+        android:id="@+id/tvDiscountMember"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discount Harga:"
+        android:textSize="20dp"
+        android:id="@+id/tvdiscountharga"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Harga Dibayar:"
+        android:textSize="20dp"
+        android:id="@+id/tvtotal"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnShare"
+        />
+
+</LinearLayout>
