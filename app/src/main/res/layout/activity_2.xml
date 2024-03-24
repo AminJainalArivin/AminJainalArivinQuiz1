@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nama:"
+        android:text="@string/Nama"
         android:textSize="20dp"
         android:id="@+id/tvNama"
         />
@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kode Barang:"
+        android:text="@string/Kode_barang"
         android:textSize="20dp"
         android:id="@+id/tvKode"
         />
@@ -27,7 +27,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nama Barang:"
+        android:text="@string/nama_barang"
         android:textSize="20dp"
         android:id="@+id/tvNbarang"
         />
@@ -35,7 +35,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="harga Barang:"
+        android:text="@string/harga_barang"
         android:textSize="20dp"
         android:id="@+id/tvhargabarang"
         />
@@ -43,7 +43,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Total harga:"
+        android:text="@string/total_harga"
         android:textSize="20dp"
         android:id="@+id/tvTotalHarga"
         />
@@ -52,7 +52,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Discount Member:"
+        android:text="@string/discount_member"
         android:textSize="20dp"
         android:id="@+id/tvDiscountMember"
         />
@@ -60,7 +60,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Discount Harga:"
+        android:text="@string/discount_harga"
         android:textSize="20dp"
         android:id="@+id/tvdiscountharga"
         />
@@ -68,7 +68,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Total Harga Dibayar:"
+        android:text="@string/total_harga_dibayar"
         android:textSize="20dp"
         android:id="@+id/tvtotal"
         />
@@ -76,7 +76,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Share"
+        android:text="@string/share"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:id="@+id/btnShare"

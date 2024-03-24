@@ -41,14 +41,16 @@ public class Activity2 extends AppCompatActivity {
         double total = intent.getDoubleExtra("TotalPembayaran", 0);
 
 
-        tvNama.setText("Nama: " + nama);
-        tvKode.setText("KodeBarang: " + KodeBarang);
-        tvNbarang.setText("namaBarang: " + namaBarang);
-        tvTotalharga.setText("Totalharga: " + Totalharga);
-        tvhargabarang.setText("HargaBarang: " + hargabarang);
-        tvdiscountharga.setText("discount: " + Discount);
-        tvDiscountMember.setText("discount Harga: " + discountharga);
-        tvtotal.setText("Total Harga: " + total);
+
+        tvNama.setText(getString(R.string.nama) + "" + nama);
+        tvKode.setText(getString(R.string.kode_barang) + "" + KodeBarang);
+        tvNbarang.setText(getString(R.string.nama_barang) + "" + namaBarang);
+        tvTotalharga.setText(getString(R.string.total_harga) + "" + Totalharga);
+        tvhargabarang.setText(getString(R.string.harga_barang) + "" + hargabarang);
+        tvdiscountharga.setText(getString(R.string.discount_member) + "" + Discount);
+        tvDiscountMember.setText(getString(R.string.discount_harga) + "" + discountharga);
+        tvtotal.setText(getString(R.string.total_harga_dibayar) + "" + total);
+
 
         btnShare.setOnClickListener(new View.OnClickListener() {
             @Override

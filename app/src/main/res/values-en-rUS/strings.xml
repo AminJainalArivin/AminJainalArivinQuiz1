@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AminJainalArivinQuiz1</string>
+    <string name="nama">Name</string>
+    <string name="kode_barang">Code item</string>
+    <string name="jumlah_barang">Item amount</string>
+    <string name="tipe_membership">Type membership</string>
+    <string name="biasa">Normal</string>
+    <string name="silver">Silver</string>
+    <string name="gold">Gold</string>
+    <string name="proses">Process</string>
+    <string name="Nama">name:</string>
+    <string name="Kode_barang">Code Item:</string>
+    <string name="nama_barang">Name Item:</string>
+    <string name="harga_barang">Price Item:</string>
+    <string name="total_harga">Total Price:</string>
+    <string name="discount_member">Discount Member:</string>
+    <string name="discount_harga">Discount Price</string>
+    <string name="total_harga_dibayar">Total Price Paid:</string>
+    <string name="share">Share</string>
+</resources>

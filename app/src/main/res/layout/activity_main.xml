@@ -8,20 +8,29 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:hint="Nama"
-        android:textColor="@color/cardview_shadow_start_color"
-        android:textSize="25dp"
-        android:id="@+id/etNama"
-        />
+        android:layout_marginTop="10dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="@string/nama"
+            android:textColor="@color/cardview_shadow_start_color"
+            android:textSize="25dp"
+            android:id="@+id/etNama"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Tipe Membership"
+        android:text="@string/tipe_membership"
         android:textSize="18dp"
         />
     <RadioGroup
@@ -33,14 +42,14 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Biasa"
+            android:text="@string/biasa"
             android:textSize="20dp"
             android:id="@+id/rbBiasa"
             />
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Silver"
+            android:text="@string/silver"
             android:textSize="20dp"
             android:id="@+id/rbSilver"
             android:layout_marginLeft="20dp"
@@ -48,35 +57,50 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Gold"
+            android:text="@string/gold"
             android:textSize="20dp"
             android:layout_marginLeft="20dp"
             android:id="@+id/rbGold"
             />
     </RadioGroup>
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:hint="Kode Barang"
-        android:textColor="@color/cardview_shadow_start_color"
-        android:textSize="25dp"
-        android:id="@+id/etKode"
-        />
-    <EditText
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="@string/kode_barang"
+            android:textColor="@color/cardview_shadow_start_color"
+            android:textSize="25dp"
+            android:id="@+id/etKode"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:hint="Jumlah Barang"
-        android:textColor="@color/cardview_shadow_start_color"
-        android:textSize="25dp"
-        android:id="@+id/etJumlah"
-        />
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="@string/jumlah_barang"
+            android:textColor="@color/cardview_shadow_start_color"
+            android:textSize="25dp"
+            android:id="@+id/etJumlah"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Proses"
+        android:text="@string/proses"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:id="@+id/btnProses"

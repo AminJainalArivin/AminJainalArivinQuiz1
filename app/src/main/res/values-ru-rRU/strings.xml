@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AminJainalArivinQuiz1</string>
+    <string name="nama">Имя</string>
+    <string name="kode_barang">Код изделия</string>
+    <string name="jumlah_barang">Количество товара</string>
+    <string name="tipe_membership">Тип участника</string>
+    <string name="biasa">Нормальный</string>
+    <string name="silver">Серебро</string>
+    <string name="gold">Золото</string>
+    <string name="proses">Процесс</string>
+    <string name="Nama">Имя:</string>
+    <string name="Kode_barang">Код изделия:</string>
+    <string name="nama_barang">Название товара:</string>
+    <string name="harga_barang">Цена товара:</string>
+    <string name="total_harga">Итоговая цена:</string>
+    <string name="discount_member">Членские отчисления:</string>
+    <string name="discount_harga">Скидки:</string>
+    <string name="total_harga_dibayar">Общая уплаченная цена:</string>
+    <string name="share">Делиться</string>
+</resources>

@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">AminJainalArivinQuiz1</string>
+    <string name="nama">Nama</string>
+    <string name="kode_barang">Kode Barang</string>
+    <string name="jumlah_barang">Jumlah Barang</string>
+    <string name="tipe_membership">Tipe Member</string>
+    <string name="biasa">Biasa</string>
+    <string name="silver">Perak</string>
+    <string name="gold">Emas</string>
+    <string name="proses">Proses</string>
+    <string name="Nama">Nama:</string>
+    <string name="Kode_barang">Kode Barang:</string>
+    <string name="nama_barang">Nama Barang:</string>
+    <string name="harga_barang">harga Barang:</string>
+    <string name="total_harga">Total harga:</string>
+    <string name="discount_member">Potongan Member:</string>
+    <string name="discount_harga">Potongan Harga:</string>
+    <string name="total_harga_dibayar">Total Harga Dibayar:</string>
+    <string name="share">Berbagi</string>
 </resources>
